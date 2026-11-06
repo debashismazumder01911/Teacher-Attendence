@@ -1,0 +1,38 @@
+{
+  "collections": {
+    "teachers": {
+      "description": "Collection of teachers registered in the college",
+      "fields": {
+        "id": "string",
+        "name": "string",
+        "blockName": "string",
+        "mobileNumber": "string",
+        "joiningDate": "string",
+        "retirementDate": "string",
+        "dateOfBirth": "string"
+      }
+    },
+    "attendance": {
+      "description": "Daily attendance logs for teachers",
+      "fields": {
+        "id": "string",
+        "teacherId": "string",
+        "teacherName": "string",
+        "blockName": "string",
+        "date": "string (YYYY-MM-DD)",
+        "arrivalTime": "string (ISO or null)",
+        "departureTime": "string (ISO or null)",
+        "totalHours": "number (or null)",
+        "lateReason": "string",
+        "earlyDepartureReason": "string"
+      }
+    },
+    "customWorkingDays": {
+      "description": "Custom working/non-working days mapped by month key",
+      "fields": {
+        "id": "string (month key YYYY-MM)",
+        "days": "array of strings (YYYY-MM-DD)"
+      }
+    }
+  }
+}

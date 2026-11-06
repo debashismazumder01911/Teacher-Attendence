@@ -1,0 +1,6 @@
+{
+  "name": "Teacher Attendance Management System",
+  "description": "রংপুর কলেজের জন্য ডিজিটাল হাজিরা এবং মাসিক রিপোর্ট ব্যবস্থাপনা সিস্টেম",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
